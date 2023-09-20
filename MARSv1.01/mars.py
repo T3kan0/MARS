@@ -18,11 +18,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-reg = Image.open('https://github.com/T3kan0/mars/blob/main/MARSv1.01/reg.png')
-log = Image.open('https://github.com/T3kan0/mars/blob/main/MARSv1.01/logo3.png')
-side = Image.open('https://github.com/T3kan0/mars/blob/main/MARSv1.01/logio.jpeg')
-tech = Image.open('https://github.com/T3kan0/mars/blob/main/MARSv1.01/tech.png')
-
 
 z, astep, logo = st.columns([0.52, 0.38, 0.25])
 with z:
