@@ -18,18 +18,18 @@ st.set_page_config(
 )
 z, astep, logo = st.columns([0.52, 0.38, 0.25])
 with z:
-    st.image('/reg.png', width=250)
+    st.image('https://github.com/T3kan0/mars/blob/main/MARSv1.01/reg.png', width=250)
 with astep:
     st.markdown("<h1 style='text-align: left; color: darkred;'>A-STEP</h1>", unsafe_allow_html=True)
     st.markdown("<h6 style='text-align: left; color: grey;'>🧑🏼‍🎓 👨🏽‍🎓Supplemental</h6>", unsafe_allow_html=True)
     st.markdown("<h6 style='text-align: left; color: grey;'>Instruction (UFS)👨🏽‍🏫</h6>", unsafe_allow_html=True)    
 with logo:
-    st.image('/reg.png', width=250)
+    st.image('https://github.com/T3kan0/mars/blob/main/MARSv1.01/reg.png', width=250)
 st.markdown("<h2 style='text-align: center; color: grey;'>Merging Attendance RegisterS (MARS)</h2>", unsafe_allow_html=True)
 st.write("<h4 style='text-align: center; color: grey;'>version: 1.0.</h4>", unsafe_allow_html=True)
 col1, col2 = st.columns([2,1], gap='small')
 with col1:
-    st.image('/logo3.png')
+    st.image('https://github.com/T3kan0/mars/blob/main/MARSv1.01/logo3.png')
 with col2:
     st.write('Welcome to the A-STEP Web Application **MARS** v.1.0. This was developed for the merging of large weekly\
  attendance files for the A-STEP data intern team, as part of their weekly data pre-processing operations.')
@@ -39,7 +39,7 @@ with col2:
     captions = ["Default: Stacking Files Atop One Another 📕📗📘➡️📚",
                 "Combines Files Based on Columns in the Right File 👉🏾", "Combines Files Based on Columns in the Left File 👈🏾"])
 st.sidebar.markdown("<h1 style='text-align: center; color: grey;'>Centre for Teaching and Learning</h1>", unsafe_allow_html=True)
-st.sidebar.image('/logio.jpeg')
+st.sidebar.image('https://github.com/T3kan0/mars/blob/main/MARSv1.01/logio.jpeg')
 
 bulk_files = st.sidebar.file_uploader('Upload Files',
                                      type=['xlsx', 'csv'],
