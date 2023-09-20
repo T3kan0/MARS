@@ -86,14 +86,14 @@ if bulk_files is not None:
             col_n1 = n_files[0].columns
         with col4:
             st.write(':blue[Type : ]',uploaded_file.type)
-            st.image('tech.png', width=120)
+            st.image('https://github.com/T3kan0/mars/blob/main/MARSv1.01/tech.png', width=120)
         with col5:
             st.write(':blue[Register ]',j+1)
             col5.write(n_files[1].head(2))
             col_n2 = n_files[1].columns
         with col6:
             st.write(':blue[Type : ]', uploaded_file.type)
-            st.image('tech.png', width=120)
+            st.image('https://github.com/T3kan0/mars/blob/main/MARSv1.01/tech.png', width=120)
 
               
     st.write(':blue[Number of Files Uploaded : ]', len(n_files))
