@@ -39,7 +39,8 @@ with col2:
     captions = ["Default: Stacking Files Atop One Another 📕📗📘➡️📚",
                 "Combines Files Based on Columns in the Right File 👉🏾", "Combines Files Based on Columns in the Left File 👈🏾"])
 st.sidebar.markdown("<h1 style='text-align: center; color: grey;'>Centre for Teaching and Learning</h1>", unsafe_allow_html=True)
-st.sidebar.image('img/https://github.com/T3kan0/mars/blob/main/MARSv1.01/logio.jpeg')
+img = Image.open('https://github.com/T3kan0/mars/blob/main/MARSv1.01/logio.jpeg')
+st.sidebar.image(img)
 
 bulk_files = st.sidebar.file_uploader('Upload Files',
                                      type=['xlsx', 'csv'],
