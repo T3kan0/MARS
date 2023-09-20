@@ -1,4 +1,4 @@
-# mars
+# MARS
 Tekano Mbonani
 
 ## System Docs 📃
