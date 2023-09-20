@@ -77,7 +77,7 @@ if bulk_files is not None:
             col_n1 = bytes_data.columns
         with col4:
             st.write(':blue[Type : ]',uploaded_file.type)
-            st.image('tech.png', width=130)  
+            st.image('https://github.com/T3kan0/mars/blob/main/MARSv1.01/tech.png', width=130)  
     elif len(n_files) >=2:
         col5, col6 = st.columns([.90, 0.10], gap='small')
         with col3:
