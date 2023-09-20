@@ -7,17 +7,10 @@ A web application developed for the data collection team at the Centre fo Teachi
 ## Software Requirements 🔌
 You will need to install the following software on your system in order to run/edit the Python and R scripts.
 * Mac OS/ Ubuntu 18.04 OS
-* Python 3.10.12
-* R 4.3.1
+* Python 3.10.
 * Textedit/ IDE - spyder, jupyter-notebook or R-studio
 * libraries
+  * streamlit
   * pandas
-  * numpy
-  * scipy
-  * pyreadr
-  * datetime
-  * fpdf
-  * matplotlib
-  * seaborn
-  * glob
-  * dplyr
+  * time
+
