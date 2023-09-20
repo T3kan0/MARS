@@ -14,6 +14,6 @@ You will need to install the following software on your system in order to run/e
   * pandas
   * time
 ### Running the code
-As mentioned, the first step is to load, combine the tutorial att well as calculating student tutorial frequency, this is done by the ***R*** code:
+To run the MARS locally, one must have an anaconda/conda environment set up. Load the environment, navigate to the directory with the app then run the **mars.py** code:
 
-> $ source("dataCompile.R")
+> $ streamlit run mars.py
