@@ -21,14 +21,14 @@ st.set_page_config(
 
 z, astep, logo = st.columns([0.52, 0.38, 0.25])
 with z:
-    st.markdown('<img src="https://github.com/T3kan0/MARS/blob/main/MARSv1.01/static/reg.png" style="width:250">', unsafe_allow_html=True)
+    st.markdown('<img src="https://github.com/T3kan0/MARS/blob/main/MARSv1.01/./app/static/reg.png" style="width:250">', unsafe_allow_html=True)
     #st.image('https://github.com/T3kan0/mars/blob/main/MARSv1.01/reg.png', width=250)
 with astep:
     st.markdown("<h1 style='text-align: left; color: darkred;'>A-STEP</h1>", unsafe_allow_html=True)
     st.markdown("<h6 style='text-align: left; color: grey;'>🧑🏼‍🎓 👨🏽‍🎓Supplemental</h6>", unsafe_allow_html=True)
     st.markdown("<h6 style='text-align: left; color: grey;'>Instruction (UFS)👨🏽‍🏫</h6>", unsafe_allow_html=True)    
 with logo:
-    st.markdown('<img src="https://github.com/T3kan0/MARS/blob/main/MARSv1.01/static/reg.png" style="width:250">', unsafe_allow_html=True)
+    st.markdown('<img src="https://github.com/T3kan0/MARS/blob/main/MARSv1.01/./app/static/reg.png" style="width:250">', unsafe_allow_html=True)
     #st.image('https://github.com/T3kan0/mars/blob/main/MARSv1.01/reg.png', width=250)
 st.markdown("<h2 style='text-align: center; color: grey;'>Merging Attendance RegisterS (MARS)</h2>", unsafe_allow_html=True)
 st.write("<h4 style='text-align: center; color: grey;'>version: 1.0.</h4>", unsafe_allow_html=True)
